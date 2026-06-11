@@ -1,80 +1,80 @@
-# Our Community Cookbook
+# Unser Gemeinschaftskochbuch
 
-A collaborative Hugo-based cookbook where everyone can share their favorite recipes.
+Ein kollaboratives Hugo-Kochbuch, in dem jeder seine Lieblingsrezepte teilen kann.
 
-## Adding Your Recipe
+## Rezept beisteuern
 
-1. Create a new `.md` file in `content/recipes/` with a URL-friendly filename (e.g., `my-recipe.md`)
-2. Use the template below for your front matter
-3. Write your recipe content in the body
-4. Submit via pull request!
+1. Eine neue `.md`-Datei in `content/recipes/` erstellen mit einem URL-freundlichen Dateinamen (z.B. `mein-rezept.md`)
+2. Die Vorlage unten für das Front Matter verwenden
+3. Den Rezeptinhalt im Hauptteil schreiben
+4. Über einen Pull-Request einreichen!
 
-### Recipe Template
+### Rezeptvorlage
 
 ```markdown
 ---
-title: "Your Recipe Name"
+title: "Name des Rezepts"
 date: 2026-06-11
 draft: false
-description: "A short description of the dish"
-categories: ["Category"]
-tags: ["tag1", "tag2"]
-contributors: ["Your Name"]
+description: "Eine kurze Beschreibung des Gerichts"
+categories: ["Kategorie"]
+tags: ["schlagwort1", "schlagwort2"]
+contributors: ["Dein Name"]
 servings: 4
-prep_time: "15 min"
-cook_time: "30 min"
+prep_time: "15 Min."
+cook_time: "30 Min."
 ingredients:
-  - "1 cup ingredient"
-  - "2 tbsp ingredient"
+  - "1 Tasse Zutat"
+  - "2 EL Zutat"
 instructions:
-  - "Step 1: Do something"
-  - "Step 2: Do something else"
-difficulty: "Easy"
+  - "Schritt 1: Etwas tun"
+  - "Schritt 2: Etwas anderes tun"
+difficulty: "Einfach"
 ---
 
-## About This Recipe
+## Über dieses Rezept
 
-Tell the story behind your recipe!
+Erzähle die Geschichte hinter deinem Rezept!
 ```
 
-### Difficulty Levels
+### Schwierigkeitsstufen
 
-- `Easy` - Beginner-friendly, under 30 minutes
-- `Medium` - Some technique required
-- `Hard` - Advanced, requires practice
+- `Einfach` - Anfängerfreundlich, unter 30 Minuten
+- `Mittel` - Etwas Technik erforderlich
+- `Schwierig` - Fortgeschritten, erfordert Übung
 
-### Available Categories
+### Verfügbare Kategorien
 
-Create whatever categories make sense for your recipe! Some examples:
-- Breakfast, Main Course, Dessert, Soup, Salad, Appetizer, Side Dish, Snack
-- Italian, Indian, Japanese, Mexican, French, Thai, etc.
+Erstelle whatever Kategorien für dein Rezept sinnvoll sind! Einige Beispiele:
+- Frühstück, Hauptgericht, Dessert, Suppe, Salat, Vorspeise, Beilage, Snack
+- Italienisch, Indisch, Japanisch, Mexikanisch, Französisch, Thai, usw.
 
-## Running Locally
+## Lokal ausführen
 
 ```bash
 hugo server -D
 ```
 
-Then open http://localhost:1313 in your browser.
+Dann http://localhost:1313 im Browser öffnen.
 
-## Building
+## Build erstellen
 
 ```bash
 hugo
 ```
 
-The static site will be generated in the `public/` directory.
+Die statische Website wird im Verzeichnis `public/` generiert.
 
-## Project Structure
+## Projektstruktur
 
 ```
 content/
-  recipes/          # All recipe .md files go here
+  recipes/          # Alle Rezept-.md-Dateien kommen hier rein
 layouts/
-  recipes/          # Custom recipe templates
-  partials/         # Theme overrides
+  recipes/          # Benutzerdefinierte Rezeptvorlagen
+  partials/         # Theme-Overrides
 assets/
-  css/              # Custom styles
+  css/              # Benutzerdefinierte Stile
 themes/
-  PaperMod/         # Hugo theme (git submodule)
+  PaperMod/         # Hugo-Theme (Git-Submodul)
 ```

@@ -1,58 +1,58 @@
 ---
-title: "One-Pot Chicken Tikka Masala"
+title: "Chicken Tikka Masala aus einem Topf"
 date: 2026-06-09
 draft: false
-description: "A simplified weeknight version of the beloved Indian classic — creamy, spiced, and comforting."
-categories: ["Indian", "Main Course"]
-tags: ["chicken", "curry", "one-pot", "weeknight-dinner", "spicy"]
+description: "Eine vereinfachte Wochentagsversion des geliebten indischen Klassikers — cremig, gewürzt und wohltuend."
+categories: ["Indisch", "Hauptgericht"]
+tags: ["hähnchen", "curry", "eintopf", "wochentagsessen", "scharf"]
 contributors: ["Priya Sharma"]
 servings: 4
-prep_time: "15 min"
-cook_time: "35 min"
+prep_time: "15 Min."
+cook_time: "35 Min."
 ingredients:
-  - "600g chicken breast, cut into bite-sized pieces"
-  - "1 cup plain yogurt"
-  - "2 tbsp lemon juice"
-  - "2 tsp garam masala"
-  - "1 tsp turmeric"
-  - "1 tsp cumin"
-  - "1 tsp paprika"
-  - "1 large onion, diced"
-  - "4 cloves garlic, minced"
-  - "1 inch fresh ginger, grated"
-  - "400g canned crushed tomatoes"
-  - "1 cup heavy cream"
-  - "2 tbsp butter"
-  - "1 tbsp vegetable oil"
-  - "1 tsp sugar"
-  - "Salt to taste"
-  - "Fresh cilantro for garnish"
-  - "Basmati rice for serving"
-  - "Naan bread for serving"
+  - "600g Hähnchenbrust, in mundgerechte Stücke geschnitten"
+  - "1 Becher Naturjoghurt"
+  - "2 EL Zitronensaft"
+  - "2 TL Garam Masala"
+  - "1 TL Kurkuma"
+  - "1 TL Kreuzkümmel"
+  - "1 TL Paprikapulver"
+  - "1 grosse Zwiebel, gewürfelt"
+  - "4 Knoblauchzehen, gepresst"
+  - "1 cm frischer Ingwer, gerieben"
+  - "400g Dosentomaten, passiert"
+  - "1 Becher Sahne"
+  - "2 EL Butter"
+  - "1 EL Pflanzenöl"
+  - "1 TL Zucker"
+  - "Salz nach Geschmack"
+  - "Frischer Koriander zum Garnieren"
+  - "Basmatireis als Beilage"
+  - "Naan-Brot als Beilage"
 instructions:
-  - "In a bowl, combine yogurt, lemon juice, 1 tsp garam masala, turmeric, cumin, and paprika. Add chicken pieces and marinate for at least 15 minutes (or overnight in the fridge for best results)."
-  - "Heat oil in a large pot over medium-high heat. Remove chicken from marinade (reserving the marinade) and cook until lightly browned on all sides, about 5 minutes. Set aside."
-  - "In the same pot, melt butter. Add diced onion and cook until golden, about 8 minutes."
-  - "Add garlic and ginger, cook for 1 minute until fragrant."
-  - "Pour in the crushed tomatoes, reserved marinade, remaining garam masala, and sugar. Stir to combine."
-  - "Return the chicken to the pot. Bring to a simmer, then reduce heat and cook covered for 20 minutes, stirring occasionally."
-  - "Stir in the heavy cream and simmer for 5 more minutes. Taste and adjust salt."
-  - "Serve over basmati rice, garnished with fresh cilantro, with warm naan on the side."
-difficulty: "Easy"
+  - "In einer Schüssel Joghurt, Zitronensaft, 1 TL Garam Masala, Kurkuma, Kreuzkümmel und Paprikapulver verrühren. Hähnchenstücke hinzufügen und mindestens 15 Minuten marinieren (oder über Nacht im Kühlschrank für das beste Ergebnis)."
+  - "Öl in einem grossen Topf bei mittlerer bis hoher Hitze erhitzen. Hähnchen aus der Marinade nehmen (Marinade aufbewahren) und von allen Seiten leicht anbraten, ca. 5 Minuten. Beiseite stellen."
+  - "Im selben Topf die Butter schmelzen. Gewürfelte Zwiebel hinzufügen und ca. 8 Minuten goldbraun braten."
+  - "Knoblauch und Ingwer hinzufügen, 1 Minute mitgaren, bis es duftet."
+  - "Die passierten Tomaten, die aufbewahrte Marinade, das restliche Garam Masala und den Zucker angiessen. Umrühren."
+  - "Das Hähnchen zurück in den Topf geben. Zum Köcheln bringen, dann die Hitze reduzieren und zugedeckt 20 Minuten garen, gelegentlich umrühren."
+  - "Die Sahne einrühren und weitere 5 Minuten köcheln lassen. Mit Salz abschmecken."
+  - "Auf Basmatireis servieren, mit frischem Koriander garniert, dazu warmes Naan-Brot reichen."
+difficulty: "Einfach"
 ---
 
-## About This Recipe
+## Über dieses Rezept
 
-This is my busy-weeknight version of chicken tikka masala. It skips the traditional tandoor step but still delivers that rich, creamy, deeply spiced sauce we all love. One pot = less cleanup!
+Dies ist meine Wochentags-Version von Chicken Tikka Masala. Sie überspringt den traditionellen Tandoor-Schritt, liefert aber trotzdem diese reichhaltige, cremige, tief gewürzte Sosse, die wir alle lieben. Ein Topf = weniger Abwasch!
 
-## Tips
+## Tipps
 
-- Marinate the chicken overnight for the most flavorful result.
-- Adjust the spice level by adding or reducing the paprika and garam masala.
-- For a lighter version, substitute coconut milk for the heavy cream.
+- Das Hähnchen über Nacht marinieren für das aromatischste Ergebnis.
+- Den Schärfegrad durch mehr oder weniger Paprikapulver und Garam Masala anpassen."
+- Für eine leichtere Variante Kokosmilch anstelle der Sahne verwenden.
 
-## Serving Suggestions
+## Serviervorschläge
 
-- Warm garlic naan for scooping up the sauce
-- A side of cooling cucumber raita
-- Pickled red onions for a tangy crunch
+- Warmes Knoblauch-Naan zum Auf tunken der Sosse
+- Eine Seite kühlende Gurkenraita"
+- Eingelegte rote Zwiebeln für einen pikanten Bissen

@@ -1,6 +1,6 @@
 baseURL = 'https://impromptu-pixel.github.io/hugo_test/'
-defaultContentLanguage = 'en'
-title = 'Our Community Cookbook'
+defaultContentLanguage = 'de'
+title = 'Unser Gemeinschaftskochbuch'
 theme = 'PaperMod'
 
 [params]
@@ -12,12 +12,12 @@ theme = 'PaperMod'
   ShowCodeCopyButtons = true
   ShowRssButtonInTermList = true
   UseHugoToc = true
-  description = 'A collaborative cookbook built by our community — recipes shared with love.'
-  author = 'Community'
+  description = 'Ein gemeinschaftliches Kochbuch — Rezepte mit Liebe geteilt.'
+  author = 'Gemeinschaft'
 
   [params.homeInfoParams]
-    Title = 'Our Community Cookbook 🍳'
-    Content = 'Welcome to our shared recipe collection! Browse recipes by category, contributor, or ingredient. Want to add your own? Just drop a `.md` file in the `content/recipes/` directory.'
+    Title = 'Unser Gemeinschaftskochbuch 🍳'
+    Content = 'Willkommen bei unserer gemeinsamen Rezeptsammlung! Stöbere durch Rezepte nach Kategorie, Mitwirkendem oder Zutat. Möchtest du dein eigenes Rezept beisteuern? Leg einfach eine `.md`-Datei im Verzeichnis `content/recipes/` ab.'
 
   [[params.socialIcons]]
     name = 'github'
@@ -42,22 +42,22 @@ theme = 'PaperMod'
 [menus]
   [[menus.main]]
     identifier = 'recipes'
-    name = 'Recipes'
+    name = 'Rezepte'
     url = '/recipes/'
     weight = 10
   [[menus.main]]
     identifier = 'categories'
-    name = 'Categories'
+    name = 'Kategorien'
     url = '/categories/'
     weight = 20
   [[menus.main]]
     identifier = 'contributors'
-    name = 'Contributors'
+    name = 'Mitwirkende'
     url = '/contributors/'
     weight = 30
   [[menus.main]]
     identifier = 'tags'
-    name = 'Tags'
+    name = 'Schlagworte'
     url = '/tags/'
     weight = 40
 

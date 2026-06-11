@@ -2,38 +2,38 @@
 title: "{{ replace .File.ContentBaseName "-" " " | title }}"
 date: {{ .Date }}
 draft: true
-description: "A short description of the dish"
-categories: ["Uncategorized"]
+description: "Eine kurze Beschreibung des Gerichts"
+categories: ["Unkategorisiert"]
 tags: []
-contributors: ["Your Name"]
+contributors: ["Dein Name"]
 servings: 4
-prep_time: "15 min"
-cook_time: "30 min"
+prep_time: "15 Min."
+cook_time: "30 Min."
 ingredients:
-  - "1 cup example ingredient"
-  - "2 tbsp example ingredient"
+  - "1 Tasse Beispielzutat"
+  - "2 EL Beispielzutat"
 instructions:
-  - "Step 1: Do something"
-  - "Step 2: Do something else"
-difficulty: "Easy"
+  - "Schritt 1: Etwas tun"
+  - "Schritt 2: Etwas anderes tun"
+difficulty: "Einfach"
 ---
 
-## About This Recipe
+## Über dieses Rezept
 
-Write a brief story or introduction about this recipe here.
+Schreibe hier eine kurze Geschichte oder Einleitung über dieses Rezept.
 
-## Ingredients
+## Zutaten
 
 {{< recipe_ingredients >}}
 
-## Instructions
+## Zubereitung
 
 {{< recipe_instructions >}}
 
-## Tips
+## Tipps
 
-- Add any helpful tips or variations here.
+- Hier nützliche Tipps oder Variationen ergänzen.
 
-## Notes
+## Notizen
 
-Any additional notes about the recipe.
+Zusätzliche Notizen zum Rezept.

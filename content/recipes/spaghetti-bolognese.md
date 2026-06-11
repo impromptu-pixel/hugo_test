@@ -1,55 +1,55 @@
 ---
-title: "Grandma's Classic Spaghetti Bolognese"
+title: "Grossmutters klassische Spaghetti Bolognese"
 date: 2026-06-11
 draft: false
-description: "A rich, hearty bolognese sauce simmered low and slow — just like grandma used to make."
-categories: ["Pasta", "Italian"]
-tags: ["pasta", "beef", "tomato", "comfort-food", "weeknight-dinner"]
+description: "Eine reichhaltige, herzhafte Bolognese-Sosse, langsam und bei niedriger Hitze geschmort — genau wie bei Grossmutter."
+categories: ["Pasta", "Italienisch"]
+tags: ["pasta", "rindfleisch", "tomate", "hausmannskost", "wochentagsessen"]
 contributors: ["Maria Rossi"]
 servings: 6
-prep_time: "20 min"
-cook_time: "2 hours"
+prep_time: "20 Min."
+cook_time: "2 Std."
 ingredients:
-  - "500g spaghetti"
-  - "500g ground beef"
-  - "1 large onion, finely diced"
-  - "2 carrots, finely diced"
-  - "2 celery stalks, finely diced"
-  - "4 cloves garlic, minced"
-  - "800g canned crushed tomatoes"
-  - "2 tbsp tomato paste"
-  - "1 cup red wine"
-  - "2 tbsp olive oil"
-  - "1 tsp dried oregano"
-  - "1 bay leaf"
-  - "Salt and pepper to taste"
-  - "Freshly grated Parmesan cheese"
-  - "Fresh basil leaves for garnish"
+  - "500g Spaghetti"
+  - "500g Rinderhackfleisch"
+  - "1 grosse Zwiebel, fein gewürfelt"
+  - "2 Karotten, fein gewürfelt"
+  - "2 Staudensellerie, fein gewürfelt"
+  - "4 Knoblauchzehen, gepresst"
+  - "800g Dosentomaten, passiert"
+  - "2 EL Tomatenmark"
+  - "1 dl Rotwein"
+  - "2 EL Olivenöl"
+  - "1 TL getrockneter Oregano"
+  - "1 Lorbeerblatt"
+  - "Salz und Pfeffer nach Geschmack"
+  - "Frisch geriebener Parmesan"
+  - "Frisches Basilikum zum Garnieren"
 instructions:
-  - "Heat olive oil in a large heavy-bottomed pot over medium-high heat. Add ground beef and cook until browned, breaking it up with a spoon. Drain excess fat."
-  - "Add the diced onion, carrots, and celery. Cook for 5-7 minutes until the vegetables are softened."
-  - "Add the minced garlic and cook for 1 minute until fragrant."
-  - "Stir in the tomato paste and cook for 2 minutes, stirring constantly."
-  - "Pour in the red wine and let it reduce by half, scraping up any browned bits from the bottom."
-  - "Add the crushed tomatoes, oregano, bay leaf, salt, and pepper. Stir well."
-  - "Reduce heat to low, cover, and simmer for at least 1.5-2 hours, stirring occasionally. The longer it simmers, the better it gets!"
-  - "Cook spaghetti according to package directions until al dente. Drain."
-  - "Serve the bolognese sauce over spaghetti, topped with freshly grated Parmesan and torn basil leaves."
-difficulty: "Medium"
+  - "Olivenöl in einem grossen schweren Topf bei mittlerer bis hoher Hitze erhitzen. Rinderhackfleisch hinzufügen und anbraten, dabei mit einem Löffel zerkleinern. überschüssiges Fett abgiessen."
+  - "Die gewürfelte Zwiebel, Karotten und Staudensellerie hinzufügen. 5–7 Minuten garen, bis das Gemüse weich ist."
+  - "Den gepressten Knoblauch hinzufügen und 1 Minute mitgaren, bis er duftet."
+  - "Das Tomatenmark einrühren und 2 Minuten unter ständigem Rühren mitgaren."
+  - "Den Rotwein angiessen und um die Hälfte reduzieren lassen, dabei den Bratensatz vom Topfboden lösen."
+  - "Die passierten Tomaten, Oregano, das Lorbeerblatt, Salz und Pfeffer hinzufügen. Gut umrühren."
+  - "Die Hitze reduzieren, den Topf abdecken und mindestens 1,5–2 Stunden bei niedriger Hitze schmoren, gelegentlich umrühren. Je länger es schmort, desto besser wird es!"
+  - "Spaghetti nach Packungsanweisung al dente kochen. Abgiessen."
+  - "Die Bolognese-Sosse über die Spaghetti servieren, mit frisch geriebenem Parmesan und gezupftem Basilikum garnieren."
+difficulty: "Mittel"
 ---
 
-## About This Recipe
+## Über dieses Rezept
 
-This is my grandmother's bolognese recipe, passed down through three generations. The secret is in the slow simmer — don't rush it! The flavors develop and deepen over time.
+Dies ist das Bolognese-Rezept meiner Grossmutter, das über drei Generationen weitergegeben wurde. Das Geheimnis liegt im langsamen Schmoren — nicht hetzen! Die Aromen entwickeln und vertiefen sich mit der Zeit.
 
-## Tips
+## Tipps
 
-- Make a double batch and freeze half for a quick weeknight dinner.
-- The sauce is even better the next day.
-- Use a good quality red wine — something you'd enjoy drinking.
+- Die doppelte Menge zubereiten und die Hälfte für ein schnelles Wochentagsessen einfrieren.
+- Die Sosse schmeckt am nächsten Tag noch besser.
+- Einen guten Rotwein verwenden — einen, den man auch gerne trinken würde.
 
-## Variations
+## Variationen
 
-- Substitute ground beef with a mix of beef and pork for even richer flavor.
-- Add a pinch of red pepper flakes for some heat.
-- Try serving over pappardelle instead of spaghetti for a more authentic Italian experience.
+- Rinderhackfleisch durch eine Mischung aus Rind und Schwein ersetzen für ein noch kräftigeres Aroma.
+- Eine Prise rote Chiliflocken für etwas Schärfe hinzufügen.
+- Statt Spaghetti Pappardelle servieren für ein authentischeres italienisches Erlebnis.

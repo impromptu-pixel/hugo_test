@@ -1,53 +1,53 @@
 ---
-title: "Fluffy Japanese Soufflé Pancakes"
+title: "Fluffige japanische Soufflé-Pfannkuchen"
 date: 2026-06-10
 draft: false
-description: "Cloud-like, jiggly Japanese soufflé pancakes that are as fun to make as they are to eat."
-categories: ["Breakfast", "Japanese"]
-tags: ["pancakes", "breakfast", "fluffy", "japanese", "dessert"]
+description: "Wolkenartige, wackelige japanische Soufflé-Pfannkuchen, die genauso Spass machen zuzubereiten wie zu essen."
+categories: ["Frühstück", "Japanisch"]
+tags: ["pfannkuchen", "frühstück", "fluffig", "japanisch", "dessert"]
 contributors: ["Yuki Tanaka"]
 servings: 2
-prep_time: "15 min"
-cook_time: "20 min"
+prep_time: "15 Min."
+cook_time: "20 Min."
 ingredients:
-  - "2 egg yolks"
-  - "3 tbsp whole milk"
-  - "1 tsp vanilla extract"
-  - "1/4 cup cake flour"
-  - "1/2 tsp baking powder"
-  - "3 egg whites"
-  - "2 tbsp sugar"
-  - "1/4 tsp cream of tartar"
-  - "Butter for cooking"
-  - "Maple syrup"
-  - "Fresh berries for serving"
-  - "Powdered sugar for dusting"
+  - "2 Eigelb"
+  - "3 EL Vollmilch"
+  - "1 TL Vanilleextrakt"
+  - "1/4 Tasse Kuchenmehl"
+  - "1/2 TL Backpulver"
+  - "3 Eiweiss"
+  - "2 EL Zucker"
+  - "1/4 TL Weinstein-Backpulver"
+  - "Butter zum Braten"
+  - "Ahornsirup"
+  - "Frische Beeren zum Servieren"
+  - "Puderzucker zum Bestäuben"
 instructions:
-  - "Whisk together egg yolks, milk, and vanilla extract in a large bowl until smooth."
-  - "Sift in the cake flour and baking powder. Mix until just combined — do not overmix."
-  - "In a separate clean bowl, beat egg whites with cream of tartar until foamy. Gradually add sugar and beat until stiff, glossy peaks form."
-  - "Fold one-third of the meringue into the yolk mixture to lighten it. Then gently fold in the remaining meringue in two additions, being careful not to deflate the batter."
-  - "Heat a non-stick pan over the lowest heat setting. Lightly butter the surface."
-  - "Using a piping bag or large spoon, pipe/ scoop tall mounds of batter (about 3 inches wide and 2 inches tall)."
-  - "Add 1 tbsp of water to the pan, cover with a lid, and cook on low heat for 5-6 minutes."
-  - "Carefully flip the pancakes, add another tbsp of water, cover, and cook for another 5-6 minutes until cooked through."
-  - "Serve immediately — they deflate quickly! Top with maple syrup, fresh berries, and a dusting of powdered sugar."
-difficulty: "Hard"
+  - "Eigelb, Milch und Vanilleextrakt in einer grossen Schüssel glattrühren."
+  - "Kuchenmehl und Backpulver einsieben. Nur bis zur Bindung verrühren — nicht überrühren."
+  - "In einer separaten sauberen Schüssel das Eiweiss mit Weinstein-Backpulver schaumig schlagen. Nach und nach den Zucker hinzufügen und steif schlagen, bis glänzende Spitzen entstehen."
+  - "Ein Drittel des Eisschaums unter die Eigelbmischung heben, um sie aufzulockern. Dann den restlichen Eisschaum in zwei Portionen vorsichtig unterheben, dabei darauf achten, den Teig nicht zusammenfallen zu lassen."
+  - "Eine beschichtete Pfanne bei niedrigster Hitze erhitzen. Die Oberfläche leicht buttern."
+  - "Mit einem Spritzbeutel oder einem grossen Löffel hohe Hügel des Teigs auftragen (ca. 8 cm breit und 5 cm hoch)."
+  - "1 EL Wasser in die Pfanne geben, einen Deckel auflegen und bei niedriger Hitze 5–6 Minuten garen."
+  - "Die Pfannkuchen vorsichtig wenden, einen weiteren EL Wasser hinzufügen, abdecken und weitere 5–6 Minuten garen, bis sie durchgegart sind."
+  - "Sofort servieren — sie fallen schnell zusammen! Mit Ahornsirup, frischen Beeren und Puderzucker garnieren."
+difficulty: "Schwierig"
 ---
 
-## About This Recipe
+## Über dieses Rezept
 
-Soufflé pancakes became an internet sensation, and for good reason! These impossibly fluffy pancakes are a weekend morning treat. The key is patience — low heat and gentle handling.
+Soufflé-Pfannkuchen wurden zu einem Internet-Hit, und das zu Recht! Diese unwahrscheinlich fluffigen Pfannkuchen sind ein Wochenendmorgen-Genuss. Der Schlüssel ist Geduld — niedrige Hitze und behutsame Handhabung.
 
-## Tips
+## Tipps
 
-- **Room temperature eggs** work best for maximum volume.
-- Make sure your bowl for egg whites is completely clean and grease-free.
-- Don't rush the cooking — low and slow is the way to go!
-- Serve immediately as they deflate within minutes.
+- **Zimmerwarme Eier** eignen sich am besten für maximales Volumen.
+- Die Schüssel für das Eiweiss muss absolut sauber und fettfrei sein.
+- Das Braten nicht hetzen — niedrig und langsam ist der Weg!
+- Sofort servieren, da sie innerhalb von Minuten zusammenfallen.
 
-## Common Mistakes
+## Häufige Fehler
 
-- Overmixing the batter (deflates the meringue)
-- Heat that's too high (burns outside, raw inside)
-- Not using cream of tartar (stabilizes the egg whites)
+- Den Teig überrühren (lässt den Eisschaum zusammenfallen)
+- Hitze zu hoch (verbrennt aussen, roh innen)
+- Kein Weinstein-Backpulver verwendet (stabilisiert das Eiweiss)

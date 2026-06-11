@@ -13,13 +13,13 @@
         <span class="recipe-difficulty difficulty-{{ . | lower }}">{{ . }}</span>
       {{- end }}
       {{- with .Params.servings }}
-        <span class="recipe-servings">Serves {{ . }}</span>
+        <span class="recipe-servings">Für {{ . }} Personen</span>
       {{- end }}
       {{- with .Params.prep_time }}
-        <span class="recipe-prep">Prep: {{ . }}</span>
+        <span class="recipe-prep">Vorb.: {{ . }}</span>
       {{- end }}
       {{- with .Params.cook_time }}
-        <span class="recipe-cook">Cook: {{ . }}</span>
+        <span class="recipe-cook">Kochzeit: {{ . }}</span>
       {{- end }}
     </div>
     {{- with .Description }}
@@ -30,25 +30,25 @@
   <div class="recipe-meta-bar">
     {{- with .Params.prep_time }}
     <div class="meta-item">
-      <span class="meta-label">Prep Time</span>
+      <span class="meta-label">Vorbereitungszeit</span>
       <span class="meta-value">{{ . }}</span>
     </div>
     {{- end }}
     {{- with .Params.cook_time }}
     <div class="meta-item">
-      <span class="meta-label">Cook Time</span>
+      <span class="meta-label">Kochzeit</span>
       <span class="meta-value">{{ . }}</span>
     </div>
     {{- end }}
     {{- with .Params.servings }}
     <div class="meta-item">
-      <span class="meta-label">Servings</span>
+      <span class="meta-label">Personen</span>
       <span class="meta-value">{{ . }}</span>
     </div>
     {{- end }}
     {{- with .Params.difficulty }}
     <div class="meta-item">
-      <span class="meta-label">Difficulty</span>
+      <span class="meta-label">Schwierigkeit</span>
       <span class="meta-value difficulty-badge difficulty-{{ . | lower }}">{{ . }}</span>
     </div>
     {{- end }}
@@ -56,7 +56,7 @@
 
   {{- if .Params.ingredients }}
   <section class="recipe-ingredients">
-    <h2 class="section-title">Ingredients</h2>
+    <h2 class="section-title">Zutaten</h2>
     <ul class="ingredients-list">
       {{- range .Params.ingredients }}
       <li><label class="ingredient-item"><input type="checkbox" class="ingredient-check"><span>{{ . }}</span></label></li>
@@ -67,7 +67,7 @@
 
   {{- if .Params.instructions }}
   <section class="recipe-instructions">
-    <h2 class="section-title">Instructions</h2>
+    <h2 class="section-title">Zubereitung</h2>
     <ol class="instructions-list">
       {{- range .Params.instructions }}
       <li class="instruction-step">{{ . | markdownify }}</li>
@@ -83,7 +83,7 @@
   <footer class="post-footer">
     {{- with .Params.contributors }}
     <div class="contributor-info">
-      <span class="contributor-label">Recipe by:</span>
+      <span class="contributor-label">Rezept von:</span>
       {{- range $i, $c := . }}{{ if $i }}, {{ end }}<a href="{{ printf "/contributors/%s" (urlize $c) }}" class="contributor-link">{{$c}}</a>{{ end }}
     </div>
     {{- end }}

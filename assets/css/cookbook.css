@@ -192,17 +192,17 @@ body {
   font-family: sans-serif;
 }
 
-.difficulty-easy {
+.difficulty-einfach {
   background: #d5f5e3;
   color: #1e8449;
 }
 
-.difficulty-medium {
+.difficulty-mittel {
   background: #fdebd0;
   color: #b9770e;
 }
 
-.difficulty-hard {
+.difficulty-schwierig {
   background: #fadbd8;
   color: #c0392b;
 }
