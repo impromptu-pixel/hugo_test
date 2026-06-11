@@ -1,0 +1,53 @@
+{{- define "main" }}
+
+{{- $terms := .Data.Terms }}
+{{- if .Data.Singular }}
+  <header class="taxonomy-header">
+    <h1>{{ .Title }}</h1>
+    {{- with .Description }}<p>{{ . }}</p>{{ end }}
+  </header>
+  <div class="recipes-grid">
+    {{- range .Pages }}
+    <article class="recipe-card">
+      <div class="recipe-card-content">
+        <h2 class="recipe-card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        {{- with .Params.description }}
+        <p class="recipe-card-desc">{{ . }}</p>
+        {{- end }}
+        <div class="recipe-card-meta">
+          {{- with .Params.contributors }}
+          <span class="recipe-card-author">{{ range $i, $c := . }}{{ if $i }}, {{ end }}{{$c}}{{ end }}</span>
+          {{- end }}
+          {{- with .Params.difficulty }}
+          <span class="difficulty-badge difficulty-{{ . | lower }}">{{ . }}</span>
+          {{- end }}
+          {{- with .Params.prep_time }}
+          <span class="recipe-card-time">{{ . }}</span>
+          {{- end }}
+        </div>
+        {{- with .Params.categories }}
+        <div class="recipe-card-categories">
+          {{- range . }}
+          <a href="{{ "/categories/" | relURL }}{{ . | urlize }}" class="category-tag">{{ . }}</a>
+          {{- end }}
+        </div>
+        {{- end }}
+      </div>
+    </article>
+    {{- end }}
+  </div>
+{{- else }}
+  <header class="taxonomy-header">
+    <h1>{{ .Title }}</h1>
+  </header>
+  <div class="terms-list">
+    {{- range $key, $value := .Data.Terms }}
+    <a href="{{ $value.Page.RelPermalink }}" class="term-link">
+      <span class="term-name">{{ $value.Page.Title }}</span>
+      <span class="term-count">{{ $value.Count }}</span>
+    </a>
+    {{- end }}
+  </div>
+{{- end }}
+
+{{- end }}

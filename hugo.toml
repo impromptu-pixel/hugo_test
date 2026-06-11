@@ -1,3 +1,70 @@
 baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+defaultContentLanguage = 'en'
+title = 'Our Community Cookbook'
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInTermList = true
+  UseHugoToc = true
+  description = 'A collaborative cookbook built by our community — recipes shared with love.'
+  author = 'Community'
+
+  [params.homeInfoParams]
+    Title = 'Our Community Cookbook 🍳'
+    Content = 'Welcome to our shared recipe collection! Browse recipes by category, contributor, or ingredient. Want to add your own? Just drop a `.md` file in the `content/recipes/` directory.'
+
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com'
+
+[params.assets]
+  favicon = '/favicon.ico'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = 'dracula'
+    lineNos = false
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  contributor = 'contributors'
+
+[menus]
+  [[menus.main]]
+    identifier = 'recipes'
+    name = 'Recipes'
+    url = '/recipes/'
+    weight = 10
+  [[menus.main]]
+    identifier = 'categories'
+    name = 'Categories'
+    url = '/categories/'
+    weight = 20
+  [[menus.main]]
+    identifier = 'contributors'
+    name = 'Contributors'
+    url = '/contributors/'
+    weight = 30
+  [[menus.main]]
+    identifier = 'tags'
+    name = 'Tags'
+    url = '/tags/'
+    weight = 40
+
+[outputs]
+  home = ['HTML', 'RSS']
+
+[module]
+  [[module.mounts]]
+    source = 'content'
+    target = 'content'

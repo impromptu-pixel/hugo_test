@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Beef on Our Community Cookbook</title>
+    <link>http://localhost:33031/tags/beef/</link>
+    <description>Recent content in Beef on Our Community Cookbook</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 11 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:33031/tags/beef/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grandma&#39;s Classic Spaghetti Bolognese</title>
+      <link>http://localhost:33031/recipes/spaghetti-bolognese/</link>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:33031/recipes/spaghetti-bolognese/</guid>
+      <description>A rich, hearty bolognese sauce simmered low and slow — just like grandma used to make.</description>
+    </item>
+  </channel>
+</rss>

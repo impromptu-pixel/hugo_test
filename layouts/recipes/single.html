@@ -1,0 +1,107 @@
+{{- define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">{{ .Title }}</h1>
+    <div class="post-meta">
+      {{- with .Params.contributors }}
+        <span class="recipe-contributor">
+          {{- range $i, $c := . }}{{ if $i }}, {{ end }}{{$c}}{{ end }}
+        </span>
+      {{- end }}
+      {{- with .Params.difficulty }}
+        <span class="recipe-difficulty difficulty-{{ . | lower }}">{{ . }}</span>
+      {{- end }}
+      {{- with .Params.servings }}
+        <span class="recipe-servings">Serves {{ . }}</span>
+      {{- end }}
+      {{- with .Params.prep_time }}
+        <span class="recipe-prep">Prep: {{ . }}</span>
+      {{- end }}
+      {{- with .Params.cook_time }}
+        <span class="recipe-cook">Cook: {{ . }}</span>
+      {{- end }}
+    </div>
+    {{- with .Description }}
+    <p class="recipe-description">{{ . }}</p>
+    {{- end }}
+  </header>
+
+  <div class="recipe-meta-bar">
+    {{- with .Params.prep_time }}
+    <div class="meta-item">
+      <span class="meta-label">Prep Time</span>
+      <span class="meta-value">{{ . }}</span>
+    </div>
+    {{- end }}
+    {{- with .Params.cook_time }}
+    <div class="meta-item">
+      <span class="meta-label">Cook Time</span>
+      <span class="meta-value">{{ . }}</span>
+    </div>
+    {{- end }}
+    {{- with .Params.servings }}
+    <div class="meta-item">
+      <span class="meta-label">Servings</span>
+      <span class="meta-value">{{ . }}</span>
+    </div>
+    {{- end }}
+    {{- with .Params.difficulty }}
+    <div class="meta-item">
+      <span class="meta-label">Difficulty</span>
+      <span class="meta-value difficulty-badge difficulty-{{ . | lower }}">{{ . }}</span>
+    </div>
+    {{- end }}
+  </div>
+
+  {{- if .Params.ingredients }}
+  <section class="recipe-ingredients">
+    <h2 class="section-title">Ingredients</h2>
+    <ul class="ingredients-list">
+      {{- range .Params.ingredients }}
+      <li><label class="ingredient-item"><input type="checkbox" class="ingredient-check"><span>{{ . }}</span></label></li>
+      {{- end }}
+    </ul>
+  </section>
+  {{- end }}
+
+  {{- if .Params.instructions }}
+  <section class="recipe-instructions">
+    <h2 class="section-title">Instructions</h2>
+    <ol class="instructions-list">
+      {{- range .Params.instructions }}
+      <li class="instruction-step">{{ . | markdownify }}</li>
+      {{- end }}
+    </ol>
+  </section>
+  {{- end }}
+
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+
+  <footer class="post-footer">
+    {{- with .Params.contributors }}
+    <div class="contributor-info">
+      <span class="contributor-label">Recipe by:</span>
+      {{- range $i, $c := . }}{{ if $i }}, {{ end }}<a href="{{ printf "/contributors/%s" (urlize $c) }}" class="contributor-link">{{$c}}</a>{{ end }}
+    </div>
+    {{- end }}
+    {{- with .Params.tags }}
+    <div class="post-tags">
+      {{- range . }}
+      <a href="{{ "/tags/" | relURL }}{{ . | urlize }}" class="tag">{{ . }}</a>
+      {{- end }}
+    </div>
+    {{- end }}
+    {{- with .Params.categories }}
+    <div class="post-categories">
+      {{- range . }}
+      <a href="{{ "/categories/" | relURL }}{{ . | urlize }}" class="category">{{ . }}</a>
+      {{- end }}
+    </div>
+    {{- end }}
+  </footer>
+</article>
+
+{{- end }}
