@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://impromptu-pixel.github.io/hugo_test/'
 defaultContentLanguage = 'en'
 title = 'Our Community Cookbook'
 theme = 'PaperMod'
