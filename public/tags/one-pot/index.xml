@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>One-Pot on Our Community Cookbook</title>
-    <link>http://localhost:33031/tags/one-pot/</link>
+    <link>http://localhost:43953/hugo_test/tags/one-pot/</link>
     <description>Recent content in One-Pot on Our Community Cookbook</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:33031/tags/one-pot/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:43953/hugo_test/tags/one-pot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>One-Pot Chicken Tikka Masala</title>
-      <link>http://localhost:33031/recipes/chicken-tikka-masala/</link>
+      <link>http://localhost:43953/hugo_test/recipes/chicken-tikka-masala/</link>
       <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33031/recipes/chicken-tikka-masala/</guid>
+      <guid>http://localhost:43953/hugo_test/recipes/chicken-tikka-masala/</guid>
       <description>A simplified weeknight version of the beloved Indian classic — creamy, spiced, and comforting.</description>
     </item>
   </channel>
