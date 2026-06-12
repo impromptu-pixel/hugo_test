@@ -15,16 +15,14 @@ theme = 'PaperMod'
   description = 'Ein gemeinschaftliches Kochbuch — Rezepte mit Liebe geteilt.'
   author = 'Gemeinschaft'
 
-  [params.homeInfoParams]
-    Title = 'Unser Gemeinschaftskochbuch 🍳'
-    Content = 'Willkommen bei unserer gemeinsamen Rezeptsammlung! Stöbere durch Rezepte nach Kategorie, Mitwirkendem oder Zutat. Möchtest du dein eigenes Rezept beisteuern? Leg einfach eine `.md`-Datei im Verzeichnis `content/recipes/` ab.'
+  mainSections = ['recipes']
 
   [[params.socialIcons]]
     name = 'github'
     url = 'https://github.com'
 
 [params.assets]
-  favicon = '/favicon.ico'
+  favicon = '/favicon.svg'
 
 [markup]
   [markup.goldmark]

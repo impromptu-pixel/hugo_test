@@ -1,14 +1,23 @@
 ---
+# ── Basis ────────────────────────────────────────────────
 title: "Chicken Tikka Masala aus einem Topf"
 date: 2026-06-09
 draft: false
 description: "Eine vereinfachte Wochentagsversion des geliebten indischen Klassikers — cremig, gewürzt und wohltuend."
+image: "images/recipes/chicken-tikka-masala.svg"
+
+# ── Einordnung ───────────────────────────────────────────
 categories: ["Indisch", "Hauptgericht"]
 tags: ["hähnchen", "curry", "eintopf", "wochentagsessen", "scharf"]
 contributors: ["Priya Sharma"]
+difficulty: "Einfach"
+
+# ── Eckdaten ─────────────────────────────────────────────
 servings: 4
 prep_time: "15 Min."
 cook_time: "35 Min."
+
+# ── Zutaten ──────────────────────────────────────────────
 ingredients:
   - "600g Hähnchenbrust, in mundgerechte Stücke geschnitten"
   - "1 Becher Naturjoghurt"
@@ -29,6 +38,8 @@ ingredients:
   - "Frischer Koriander zum Garnieren"
   - "Basmatireis als Beilage"
   - "Naan-Brot als Beilage"
+
+# ── Zubereitung ──────────────────────────────────────────
 instructions:
   - "In einer Schüssel Joghurt, Zitronensaft, 1 TL Garam Masala, Kurkuma, Kreuzkümmel und Paprikapulver verrühren. Hähnchenstücke hinzufügen und mindestens 15 Minuten marinieren (oder über Nacht im Kühlschrank für das beste Ergebnis)."
   - "Öl in einem grossen Topf bei mittlerer bis hoher Hitze erhitzen. Hähnchen aus der Marinade nehmen (Marinade aufbewahren) und von allen Seiten leicht anbraten, ca. 5 Minuten. Beiseite stellen."
@@ -38,8 +49,9 @@ instructions:
   - "Das Hähnchen zurück in den Topf geben. Zum Köcheln bringen, dann die Hitze reduzieren und zugedeckt 20 Minuten garen, gelegentlich umrühren."
   - "Die Sahne einrühren und weitere 5 Minuten köcheln lassen. Mit Salz abschmecken."
   - "Auf Basmatireis servieren, mit frischem Koriander garniert, dazu warmes Naan-Brot reichen."
-difficulty: "Einfach"
 ---
+
+> «Ein Topf, grosse Aromen, kaum Abwasch — so koche ich unter der Woche.» — Priya
 
 ## Über dieses Rezept
 
@@ -48,11 +60,11 @@ Dies ist meine Wochentags-Version von Chicken Tikka Masala. Sie überspringt den
 ## Tipps
 
 - Das Hähnchen über Nacht marinieren für das aromatischste Ergebnis.
-- Den Schärfegrad durch mehr oder weniger Paprikapulver und Garam Masala anpassen."
+- Den Schärfegrad durch mehr oder weniger Paprikapulver und Garam Masala anpassen.
 - Für eine leichtere Variante Kokosmilch anstelle der Sahne verwenden.
 
 ## Serviervorschläge
 
-- Warmes Knoblauch-Naan zum Auf tunken der Sosse
-- Eine Seite kühlende Gurkenraita"
-- Eingelegte rote Zwiebeln für einen pikanten Bissen
+- Warmes Knoblauch-Naan zum Auftunken der Sosse
+- Eine Schale kühlende Gurkenraita
+- Eingelegte rote Zwiebeln für einen pikanten Biss

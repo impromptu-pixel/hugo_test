@@ -1,0 +1,35 @@
+{{- /* Rezeptkarte — erwartet eine Rezeptseite als Kontext */ -}}
+{{- $img := .Params.image | default "images/recipes/default.svg" }}
+<article class="recipe-card">
+  <a class="recipe-card__imglink" href="{{ .RelPermalink }}" aria-hidden="true" tabindex="-1">
+    <img src="{{ $img | relURL }}" alt="{{ .Title }}" loading="lazy">
+    {{- with .Params.difficulty }}
+    <span class="diff diff-{{ . | urlize }}">{{ . }}</span>
+    {{- end }}
+  </a>
+  <div class="recipe-card__body">
+    {{- with .Params.categories }}
+    <div class="recipe-card__cats">
+      {{- range . }}
+      <a href="{{ printf "categories/%s/" (urlize .) | relURL }}" class="pill pill--cat">{{ . }}</a>
+      {{- end }}
+    </div>
+    {{- end }}
+    <h3 class="recipe-card__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    {{- with .Params.description }}
+    <p class="recipe-card__desc">{{ . }}</p>
+    {{- end }}
+    <div class="recipe-card__foot">
+      {{- with .Params.contributors }}
+      {{- $name := index . 0 }}
+      <span class="recipe-card__author">
+        <span class="avatar">{{ substr $name 0 1 | upper }}</span>
+        <span>{{ delimit . ", " }}</span>
+      </span>
+      {{- end }}
+      {{- with .Params.cook_time }}
+      <span class="recipe-card__time">{{ . }}</span>
+      {{- end }}
+    </div>
+  </div>
+</article>

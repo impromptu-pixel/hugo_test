@@ -1,0 +1,130 @@
+{{- define "main" }}
+
+{{- $recipes := where site.RegularPages "Section" "recipes" }}
+{{- $featured := index $recipes 0 }}
+
+<div class="cb-home">
+
+  {{- /* ============ Hero ============ */}}
+  <section class="hero">
+    <div class="hero__inner">
+      <p class="hero__kicker">Von uns · Für uns · Zum Nachkochen</p>
+      <h1 class="hero__title">Unser <em>Gemeinschafts&shy;kochbuch</em></h1>
+      <p class="hero__lead">Eine wachsende Sammlung unserer liebsten Rezepte — von Grossmutters Klassikern bis zu neuen Entdeckungen. Jedes Gericht wurde von jemandem aus unserer Gemeinschaft gekocht, verfeinert und mit Liebe aufgeschrieben.</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="{{ "recipes/" | relURL }}">Alle Rezepte entdecken</a>
+        <a class="btn btn--ghost" href="#mitmachen">Rezept beisteuern</a>
+      </div>
+      <dl class="hero__stats">
+        <div>
+          <dt>Rezepte</dt>
+          <dd>{{ len $recipes }}</dd>
+        </div>
+        <div>
+          <dt>Mitwirkende</dt>
+          <dd>{{ len site.Taxonomies.contributors }}</dd>
+        </div>
+        <div>
+          <dt>Kategorien</dt>
+          <dd>{{ len site.Taxonomies.categories }}</dd>
+        </div>
+      </dl>
+    </div>
+    {{- with first 3 $recipes }}
+    <div class="hero__art" aria-hidden="true">
+      {{- range . }}
+      <a class="polaroid" href="{{ .RelPermalink }}" tabindex="-1">
+        <img src="{{ (.Params.image | default "images/recipes/default.svg") | relURL }}" alt="" loading="eager">
+        <figcaption>{{ .Title }}</figcaption>
+      </a>
+      {{- end }}
+    </div>
+    {{- end }}
+  </section>
+
+  {{- /* ============ Rezept der Stunde ============ */}}
+  {{- with $featured }}
+  <section aria-label="Neuestes Rezept">
+    <article class="featured">
+      <div class="featured__imgwrap">
+        <img src="{{ (.Params.image | default "images/recipes/default.svg") | relURL }}" alt="{{ .Title }}">
+      </div>
+      <div class="featured__body">
+        <span class="featured__label">✦ Frisch aus der Küche</span>
+        <h2 class="featured__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        {{- with .Params.description }}
+        <p class="featured__desc">{{ . }}</p>
+        {{- end }}
+        <div class="featured__meta">
+          {{- with .Params.contributors }}
+          {{- $name := index . 0 }}
+          <span class="recipe-card__author"><span class="avatar">{{ substr $name 0 1 | upper }}</span> <span>{{ delimit . ", " }}</span></span>
+          {{- end }}
+          {{- with .Params.cook_time }}<span class="recipe-card__time">{{ . }}</span>{{ end }}
+          {{- with .Params.difficulty }}<span class="diff diff-{{ . | urlize }}">{{ . }}</span>{{ end }}
+        </div>
+        <a class="btn btn--primary" href="{{ .RelPermalink }}">Zum Rezept</a>
+      </div>
+    </article>
+  </section>
+  {{- end }}
+
+  {{- /* ============ Neueste Rezepte ============ */}}
+  {{- with after 1 $recipes }}
+  <section aria-label="Weitere Rezepte">
+    <div class="cb-section-head">
+      <h2 class="cb-section-title">Weiter stöbern</h2>
+      <a class="cb-section-link" href="{{ "recipes/" | relURL }}">Alle Rezepte →</a>
+    </div>
+    <div class="recipes-grid">
+      {{- range first 6 . }}
+      {{- partial "recipe-card.html" . }}
+      {{- end }}
+    </div>
+  </section>
+  {{- end }}
+
+  {{- /* ============ Kategorien ============ */}}
+  {{- with site.Taxonomies.categories }}
+  <section aria-label="Kategorien">
+    <div class="cb-section-head">
+      <h2 class="cb-section-title">Worauf hast du Lust?</h2>
+      <a class="cb-section-link" href="{{ "categories/" | relURL }}">Alle Kategorien →</a>
+    </div>
+    <div class="cat-cloud">
+      {{- range .ByCount }}
+      <a class="pill" href="{{ .Page.RelPermalink }}">{{ .Page.Title }} <small>({{ .Count }})</small></a>
+      {{- end }}
+    </div>
+  </section>
+  {{- end }}
+
+  {{- /* ============ Mitwirkende ============ */}}
+  {{- with site.Taxonomies.contributors }}
+  <section aria-label="Mitwirkende">
+    <div class="cb-section-head">
+      <h2 class="cb-section-title">Die Köchinnen &amp; Köche</h2>
+      <a class="cb-section-link" href="{{ "contributors/" | relURL }}">Alle Mitwirkenden →</a>
+    </div>
+    <div class="contrib-row">
+      {{- range .Alphabetical }}
+      <a class="contrib-chip" href="{{ .Page.RelPermalink }}">
+        <span class="avatar">{{ substr .Page.Title 0 1 | upper }}</span>
+        {{ .Page.Title }}
+        <small>· {{ .Count }} {{ if eq .Count 1 }}Rezept{{ else }}Rezepte{{ end }}</small>
+      </a>
+      {{- end }}
+    </div>
+  </section>
+  {{- end }}
+
+  {{- /* ============ Mitmach-Banner ============ */}}
+  <section class="cta-banner" id="mitmachen">
+    <h2>Dein Lieblingsrezept fehlt noch!</h2>
+    <p>Mitmachen ist einfach: Lege eine Markdown-Datei in <code>content/recipes/</code> an, füge ein Bild hinzu und reiche einen Pull-Request ein. Die Vorlage und alle Details findest du im README — die bestehenden Rezepte zeigen dir, wie es aussehen soll.</p>
+    <a class="btn btn--primary" href="https://github.com" target="_blank" rel="noopener">Rezept beisteuern</a>
+  </section>
+
+</div>
+
+{{- end }}

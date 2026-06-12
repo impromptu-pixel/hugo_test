@@ -1,0 +1,23 @@
+{{- define "main" }}
+
+{{- $isContrib := eq .Data.Singular "contributor" }}
+
+<header class="page-head">
+  <p class="page-head__kicker">✦ Übersicht</p>
+  <h1>{{ .Title }}</h1>
+  {{- with .Description }}<p>{{ . }}</p>{{ end }}
+</header>
+
+<div class="terms-grid">
+  {{- range .Data.Terms.Alphabetical }}
+  <a href="{{ .Page.RelPermalink }}" class="term-card">
+    <span class="term-card__name">
+      {{- if $isContrib }}<span class="avatar">{{ substr .Page.Title 0 1 | upper }}</span>{{ end -}}
+      <span>{{ .Page.Title }}</span>
+    </span>
+    <span class="term-card__count">{{ .Count }}</span>
+  </a>
+  {{- end }}
+</div>
+
+{{- end }}

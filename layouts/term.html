@@ -1,0 +1,20 @@
+{{- define "main" }}
+
+{{- $kicker := "Schlagwort" }}
+{{- if eq .Data.Singular "category" }}{{ $kicker = "Kategorie" }}
+{{- else if eq .Data.Singular "contributor" }}{{ $kicker = "Rezepte von" }}
+{{- end }}
+
+<header class="page-head">
+  <p class="page-head__kicker">✦ {{ $kicker }}</p>
+  <h1>{{ .Title }}</h1>
+  <p>{{ len .Pages }} {{ if eq (len .Pages) 1 }}Rezept{{ else }}Rezepte{{ end }} in dieser Sammlung.</p>
+</header>
+
+<div class="recipes-grid">
+  {{- range .Pages.ByDate.Reverse }}
+  {{- partial "recipe-card.html" . }}
+  {{- end }}
+</div>
+
+{{- end }}

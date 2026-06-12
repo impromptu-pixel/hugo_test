@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Illustration: Kochtopf">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e4e8d3"/>
+      <stop offset="1" stop-color="#c5cfa6"/>
+    </linearGradient>
+    <linearGradient id="pot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c2502e"/>
+      <stop offset="1" stop-color="#9c3a1e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#bg)"/>
+  <circle cx="400" cy="270" r="215" fill="#f4f5e8" opacity="0.8"/>
+  <!-- sparkles -->
+  <g fill="#6b7f4f" opacity="0.6">
+    <path d="M130 125l5 14 14 5-14 5-5 14-5-14-14-5 14-5z"/>
+    <path d="M672 140l4 11 11 4-11 4-4 11-4-11-11-4 11-4z"/>
+    <path d="M655 410l4 11 11 4-11 4-4 11-4-11-11-4 11-4z"/>
+    <path d="M140 400l3 9 9 3-9 3-3 9-3-9-9-3 9-3z"/>
+  </g>
+  <!-- steam -->
+  <g stroke="#9aa884" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.6">
+    <path d="M330 120c-14 26 14 38 0 64"/>
+    <path d="M400 100c-14 26 14 38 0 64"/>
+    <path d="M470 120c-14 26 14 38 0 64"/>
+  </g>
+  <!-- shadow -->
+  <ellipse cx="400" cy="438" rx="220" ry="28" fill="#5d6b42" opacity="0.25"/>
+  <!-- pot -->
+  <path d="M230 248c0-12 76-22 170-22s170 10 170 22v120c0 40-66 66-170 66s-170-26-170-66z" fill="url(#pot)"/>
+  <ellipse cx="400" cy="248" rx="170" ry="30" fill="#8a2f16"/>
+  <ellipse cx="400" cy="246" rx="152" ry="24" fill="#e8842c"/>
+  <!-- bubbling contents -->
+  <g fill="#f3a54e">
+    <circle cx="340" cy="242" r="10"/>
+    <circle cx="402" cy="250" r="12"/>
+    <circle cx="462" cy="240" r="9"/>
+  </g>
+  <g fill="#3f7d3a">
+    <path d="M362 232c6-10 18-12 26-8-2 10-14 16-26 8z"/>
+    <path d="M430 236c6-10 18-12 26-8-2 10-14 16-26 8z"/>
+  </g>
+  <!-- handles -->
+  <path d="M222 268c-26 0-26 30 0 30" stroke="#7c2a12" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <path d="M578 268c26 0 26 30 0 30" stroke="#7c2a12" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <!-- lid leaning -->
+  <g transform="rotate(24 632 220)">
+    <ellipse cx="632" cy="220" rx="86" ry="18" fill="#d9d2c4"/>
+    <ellipse cx="632" cy="214" rx="86" ry="16" fill="#efe9dc"/>
+    <circle cx="632" cy="200" r="12" fill="#9c6b3f"/>
+  </g>
+  <!-- ladle -->
+  <g transform="rotate(-22 170 300)">
+    <rect x="163" y="190" width="13" height="120" rx="6.5" fill="#9c6b3f"/>
+    <path d="M142 310a28 28 0 0 0 56 0z" fill="#b5824f"/>
+  </g>
+</svg>

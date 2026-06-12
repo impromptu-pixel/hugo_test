@@ -1,14 +1,23 @@
 ---
+# ── Basis ────────────────────────────────────────────────
 title: "Schokoladen-Lava-Kuchen"
 date: 2026-06-08
 draft: false
 description: "Beeindruckend, aber überraschend einfach — Schokoladenkuchen mit geschmolzenem Kern."
+image: "images/recipes/chocolate-lava-cake.svg"
+
+# ── Einordnung ───────────────────────────────────────────
 categories: ["Dessert", "Französisch"]
 tags: ["schokolade", "dessert", "datenacht", "beeindruckend", "schnell"]
 contributors: ["Jean-Pierre Dubois"]
+difficulty: "Mittel"
+
+# ── Eckdaten ─────────────────────────────────────────────
 servings: 4
 prep_time: "10 Min."
 cook_time: "14 Min."
+
+# ── Zutaten ──────────────────────────────────────────────
 ingredients:
   - "200g dunkle Schokolade (70% Kakao)"
   - "120g ungesalzene Butter, plus mehr zum Einfetten"
@@ -21,6 +30,8 @@ ingredients:
   - "Kakaopulver zum Bestäuben"
   - "Vanilleeis zum Servieren"
   - "Frische Himbeeren zum Garnieren"
+
+# ── Zubereitung ──────────────────────────────────────────
 instructions:
   - "Den Ofen auf 220°C vorheizen. Vier Förmchen (ca. 180 ml) grosszügig buttern und mit Kakaopulver bestäuben."
   - "Schokolade und Butter zusammen in einer hitzefesten Schüssel über simmerndem Wasser schmelzen (oder in 30-Sekunden-Intervallen in der Mikrowelle), bis glatt. Leicht abkühlen lassen."
@@ -30,8 +41,9 @@ instructions:
   - "Die Förmchen auf ein Backblech stellen und genau 12–14 Minuten backen. Die Ränder sollten gesetzt sein, aber die Mitte sollte noch wackeln."
   - "1 Minute ruhen lassen, dann ein Messer um die Ränder fahren. Einen Teller darauflegen, umdrehen und das Förmchen vorsichtig abheben."
   - "Sofort mit einer Kugel Vanilleeis und frischen Himbeeren servieren."
-difficulty: "Mittel"
 ---
+
+> «Beim Lava-Kuchen entscheidet eine einzige Minute über alles. Stell dir einen Timer!» — Jean-Pierre
 
 ## Über dieses Rezept
 

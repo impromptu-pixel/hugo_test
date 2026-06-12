@@ -1,14 +1,23 @@
 ---
+# ── Basis ────────────────────────────────────────────────
 title: "Grossmutters klassische Spaghetti Bolognese"
 date: 2026-06-11
 draft: false
 description: "Eine reichhaltige, herzhafte Bolognese-Sosse, langsam und bei niedriger Hitze geschmort — genau wie bei Grossmutter."
+image: "images/recipes/spaghetti-bolognese.svg"
+
+# ── Einordnung ───────────────────────────────────────────
 categories: ["Pasta", "Italienisch"]
 tags: ["pasta", "rindfleisch", "tomate", "hausmannskost", "wochentagsessen"]
 contributors: ["Maria Rossi"]
+difficulty: "Mittel"
+
+# ── Eckdaten ─────────────────────────────────────────────
 servings: 6
 prep_time: "20 Min."
 cook_time: "2 Std."
+
+# ── Zutaten ──────────────────────────────────────────────
 ingredients:
   - "500g Spaghetti"
   - "500g Rinderhackfleisch"
@@ -25,8 +34,10 @@ ingredients:
   - "Salz und Pfeffer nach Geschmack"
   - "Frisch geriebener Parmesan"
   - "Frisches Basilikum zum Garnieren"
+
+# ── Zubereitung ──────────────────────────────────────────
 instructions:
-  - "Olivenöl in einem grossen schweren Topf bei mittlerer bis hoher Hitze erhitzen. Rinderhackfleisch hinzufügen und anbraten, dabei mit einem Löffel zerkleinern. überschüssiges Fett abgiessen."
+  - "Olivenöl in einem grossen schweren Topf bei mittlerer bis hoher Hitze erhitzen. Rinderhackfleisch hinzufügen und anbraten, dabei mit einem Löffel zerkleinern. Überschüssiges Fett abgiessen."
   - "Die gewürfelte Zwiebel, Karotten und Staudensellerie hinzufügen. 5–7 Minuten garen, bis das Gemüse weich ist."
   - "Den gepressten Knoblauch hinzufügen und 1 Minute mitgaren, bis er duftet."
   - "Das Tomatenmark einrühren und 2 Minuten unter ständigem Rühren mitgaren."
@@ -35,8 +46,9 @@ instructions:
   - "Die Hitze reduzieren, den Topf abdecken und mindestens 1,5–2 Stunden bei niedriger Hitze schmoren, gelegentlich umrühren. Je länger es schmort, desto besser wird es!"
   - "Spaghetti nach Packungsanweisung al dente kochen. Abgiessen."
   - "Die Bolognese-Sosse über die Spaghetti servieren, mit frisch geriebenem Parmesan und gezupftem Basilikum garnieren."
-difficulty: "Mittel"
 ---
+
+> «Eine gute Bolognese hat keine Abkürzung — nur einen Topf, Geduld und Zeit.» — Maria
 
 ## Über dieses Rezept
 
